@@ -21,6 +21,6 @@ app.use("/users", require("./routes/userRoute"));
 app.use("/kategori", require("./routes/kategoriRoute"));
 app.use("/barang", require("./routes/barangRoute"));
 
-app.listen(3000, () => {
-  console.log("Server telah dijalankan di port 3000");
+app.listen(4000, () => {
+  console.log("Server telah dijalankan di port 4000");
 });
